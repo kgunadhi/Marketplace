@@ -1,0 +1,19 @@
+<div id="main-content" class="col-sm-9">
+  <h3 class="page-name"><%= link_to 'Clothes', clothes_posts_path %></h3>
+  <div class="row">
+    <%= render @clothes_posts %>
+    <%= render no_posts_partial_path(@clothes_posts) %>
+  </div><!-- row -->
+
+  <h3 class="page-name"><%= link_to 'Goods', goods_posts_path %></h3>
+  <div class="row">
+    <%= render @goods_posts %>
+    <%= render no_posts_partial_path(@goods_posts) %>
+  </div><!-- row -->
+
+  <h3 class="page-name"><%= link_to 'Housing', housing_posts_path %></h3>
+  <div class="row">
+    <%= render @housing_posts %>
+    <%= render no_posts_partial_path(@housing_posts) %>
+  </div><!-- row -->
+</div><!-- main_content -->

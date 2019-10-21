@@ -1,0 +1,16 @@
+development:
+    adapter: postgresql
+    database: marketplace_development
+    host: localhost
+    pool: 5
+    timeout: 5000
+    username: postgres
+    password: flower0312
+
+test:
+    adapter: postgresql
+    database: marketplace_test
+    host: localhost
+    username: postgres
+    pool: 5
+    timeout: 5000
